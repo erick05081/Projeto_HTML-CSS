@@ -1,0 +1,149 @@
+/*Esse trecho zera margin e padding e 
+aplica fonte arial a todo o documento */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/*Define as características do cabeçalho*/
+.header {
+  background-color: rgb(255, 189, 47);
+  height: 200px;
+  width: 100vw;
+  position: static;
+  display: block;
+}
+
+/*Organiza o menu de navegação em linha*/
+.menu ul li {
+  display: inline;
+}
+
+/*Propriedades do menu*/
+.menu {
+  top: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Inicio das propriedades dos links do menu*/
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+/*Mantém a cor do link do menu como branca ao ser visitado*/
+.menu a:visited {
+  color: white;
+}
+
+.menu a:hover {
+  color: rgb(255, 189, 47);
+  background-color: white;
+}
+/*Fim das propriedades dos links do menu*/
+
+/*Propriedades do título principal da página*/
+.titulo {
+  font-size: 30px;
+  padding-top: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo1 {
+  color: rgb(110, 67, 27);
+}
+
+#titulo2 {
+  color: aliceblue;
+}
+
+/*Propriedades do subtítulo da página*/
+h2 {
+  color: rgb(255, 189, 47);
+  font-size: 30px;
+}
+
+/*Propriedades do conteúdo principla da página*/
+.principal {
+  width: 900px;
+  position: relative;
+  margin: 50px auto;
+  display: block;
+}
+
+/*Propriedades das notícias laterais*/
+.postagens {
+  width: 250px;
+  position: absolute;
+  display: block;
+  margin-left: 78%;
+  margin-top: 20px;
+}
+
+/*Propriedades dos links das notícias laterais*/
+.postagens a {
+  color: rgb(255, 189, 47);
+  text-decoration: none;
+  padding: 5px;
+}
+
+/*Define as propriedades do título da div notícias*/
+.postagens h3 {
+  background-color: rgb(172, 172, 172);
+  color: rgb(49, 49, 49);
+  padding: 5px;
+}
+
+/*Propriedades da lista de links da aba categorias*/
+.postagens ul li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 5px;
+}
+
+/*Atribui uma margem interna no parágrafo da div notícias*/
+.postagens p {
+  padding: 5px;
+}
+
+/*Atribui uma margem externa da horizontal row*/
+hr {
+  margin: 5px 0;
+}
+
+/*Define o tamanho das notícias principais da páginas*/
+.noticias {
+  width: 640px;
+}
+
+/*Configura os links das notícias*/
+.noticias a {
+  text-decoration: none;
+  color: rgb(255, 189, 47);
+}
+
+/*Padding para distanciar o texto das imagens*/
+.noticias p,
+a {
+  padding: 5px 0;
+}
+
+/*Rodapé da página*/
+#rodape {
+  background-color: rgb(172, 172, 172);
+  padding: 15px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
